@@ -76,7 +76,8 @@ class ViewController: UIViewController {
 //        let vc = TextViewController()
 //        let vc = LocationViewController()
 //        let vc = ExampleOneViewController()
-        let vc = ExampleTwoViewController()
+//        let vc = ExampleTwoViewController()
+        let vc = ExampleThreeViewController()
         present(vc, animated: true)
         
     }

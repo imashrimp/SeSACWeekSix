@@ -19,6 +19,7 @@
 		17376EAD2A94A00E00AE158D /* ExampleOneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17376EAC2A94A00E00AE158D /* ExampleOneViewController.swift */; };
 		17376EAF2A94B9F900AE158D /* ExampleTwoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17376EAE2A94B9F900AE158D /* ExampleTwoViewController.swift */; };
 		17376EB12A94BE9400AE158D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17376EB02A94BE9400AE158D /* Main.storyboard */; };
+		17C402982A94DD8E00265007 /* ExampleThreeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17C402972A94DD8E00265007 /* ExampleThreeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,7 @@
 		17376EAC2A94A00E00AE158D /* ExampleOneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleOneViewController.swift; sourceTree = "<group>"; };
 		17376EAE2A94B9F900AE158D /* ExampleTwoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleTwoViewController.swift; sourceTree = "<group>"; };
 		17376EB02A94BE9400AE158D /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		17C402972A94DD8E00265007 /* ExampleThreeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleThreeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 			children = (
 				17376EAC2A94A00E00AE158D /* ExampleOneViewController.swift */,
 				17376EAE2A94B9F900AE158D /* ExampleTwoViewController.swift */,
+				17C402972A94DD8E00265007 /* ExampleThreeViewController.swift */,
 			);
 			path = SnapKitExample;
 			sourceTree = "<group>";
@@ -184,6 +187,7 @@
 				17376EAA2A94792800AE158D /* LocationViewController.swift in Sources */,
 				17084D102A930A0F004AEB80 /* AppDelegate.swift in Sources */,
 				17376EAF2A94B9F900AE158D /* ExampleTwoViewController.swift in Sources */,
+				17C402982A94DD8E00265007 /* ExampleThreeViewController.swift in Sources */,
 				17084D122A930A0F004AEB80 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

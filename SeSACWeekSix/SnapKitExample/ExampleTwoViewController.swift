@@ -67,7 +67,6 @@ class ExampleTwoViewController: UIViewController {
         let imageSize = UIImage.SymbolConfiguration(pointSize: 40)
         let image = UIImage(systemName: "bubble.left.fill", withConfiguration: imageSize)
         button.setImage(image, for: .normal)
-//        button.setImage(UIImage(systemName: "bubble.left.fill"), for: .normal)
         button.tintColor = .white
         return button
     }()
