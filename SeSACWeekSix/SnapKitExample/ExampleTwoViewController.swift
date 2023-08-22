@@ -80,7 +80,12 @@ class ExampleTwoViewController: UIViewController {
         return label
     }()
     
-    //MARK: - 여기에 빨간 점 이미지던 label이던 뭘로 하나 넣어보자
+    let badgeOne = {
+       let imageView = UIImageView()
+        imageView.image = UIImage(systemName: "circle.fill")
+        imageView.tintColor = .systemRed
+        return imageView
+    }()
     
     let editProfileButton = {
         let button = UIButton()
@@ -100,7 +105,12 @@ class ExampleTwoViewController: UIViewController {
         return label
     }()
     
-    //MARK: - 여기에 빨간 점 이미지던 label이던 뭘로 하나 넣어보자
+    let badgeTwo = {
+       let imageView = UIImageView()
+        imageView.image = UIImage(systemName: "circle.fill")
+        imageView.tintColor = .systemRed
+        return imageView
+    }()
     
     let storyButton = {
         let button = UIButton()
@@ -133,8 +143,10 @@ class ExampleTwoViewController: UIViewController {
         userNameLabel,
         chattingButton,
         chattingLabel,
+         badgeOne,
         editProfileButton,
         editProfileLabel,
+        badgeTwo,
         storyButton,
         storyLabel].forEach {
             view.addSubview($0)
@@ -192,6 +204,12 @@ class ExampleTwoViewController: UIViewController {
             make.top.equalTo(chattingButton.snp.bottom)
         }
         
+        badgeOne.snp.makeConstraints { make in
+            make.size.equalTo(10)
+            make.leading.equalTo(editProfileButton.snp.trailing).inset(18)
+            make.top.equalTo(editProfileButton.snp.top).inset(18)
+        }
+        
         editProfileButton.snp.makeConstraints { make in
             make.size.equalTo(80)
             make.centerX.equalTo(profileImageView)
@@ -202,6 +220,12 @@ class ExampleTwoViewController: UIViewController {
         editProfileLabel.snp.makeConstraints { make in
             make.centerX.equalTo(editProfileButton)
             make.top.equalTo(editProfileButton.snp.bottom)
+        }
+        
+        badgeTwo.snp.makeConstraints { make in
+            make.size.equalTo(10)
+            make.leading.equalTo(storyButton.snp.trailing).inset(18)
+            make.top.equalTo(storyButton.snp.top).inset(18)
         }
         
         storyButton.snp.makeConstraints { make in
