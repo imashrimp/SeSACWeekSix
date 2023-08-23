@@ -74,11 +74,12 @@ class ViewController: UIViewController {
 
 //        let vc = SnapViewController()
 //        let vc = TextViewController()
-//        let vc = LocationViewController()
+        let vc = LocationViewController()
 //        let vc = ExampleOneViewController()
 //        let vc = ExampleTwoViewController()
-        let vc = ExampleThreeViewController()
-        present(vc, animated: true)
+//        let vc = ExampleThreeViewController()
+        let nav = UINavigationController(rootViewController: vc)
+        present(nav, animated: true)
         
     }
     
